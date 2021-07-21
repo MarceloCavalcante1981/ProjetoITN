@@ -1,19 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario2</title>
 </head>
+
 <body>
-    <!--exercio:Exibindo uma imagem -->
-    <div>    
+    <!--exercio:Exibindo uma imagem 
+    <div>
         <h3>Golf GTI</h3>
-        <img src="carros/golf_gti.jpg" alt="Carro"/>
+        <img src="carros/golf_gti.jpg" alt="Carro" />
     </div>
 
+    Lista não-ordenada
+    <ul>
+        <li> Japão</li>
+        <li> Estados Unidos</li>
+        <li> Brasil </li>
+        <li> Coréia do Sul </li>
+        <li> Israel </li>
+    </ul>
 
-    
+<!--Exercicio: Link -->
+    <!--
+    <a href="cadastrar.html">Cadastrar</a>
+
+
+ <!--  Lista em numeros romanos
+        <li>Lancer </i>
+        <li>Longshot</i>
+        <li>Hammerburst</i>
+        <li>Boltok</i>
+        <li>Gnasher</i>
+    </ol>
+
+ <!--Lista de descrição 
+    <dl>
+        <dt>Primeiro Termo</dt>
+        <dd>Significado do Primeiro termo</dd>
+        <dt>Segundo Termo</dt>
+        <dd>Significado do Segundo Termo</dd>
+    </dl>
+-->
+
+    <!--exercicio Preenchendo o perfil   -->
+    <form method="POST" action="perfil.php">
+        <label>Nome: </label><input name="nome" type="text" /><br>
+        <label>Sobrenome: </label><input name="sobrenome" type="text" /><br>
+        <label>Sobre mim: </label><input name="sobremim"></textarea><br>
+        <input type="submit" name="enviar" />
+    </form>
+
+
+    <!--  -->
+    <div>
+        <h1>Este é o titulo da seção</h1>
+        <p>Este é o primeiro parágrafo.
+            <a htref="tabelas.html" target="_self">Segue o link </a>
+            <img digite="imagem.jpg" />
+        </p>
+    </div>
+
+    <!-- mehod post -->
+    <form method="post" action="dados.php">
+        <label>Nome: </label><input name="nome" type="text" /><br>
+        <label>E-mail: </label><input name="email" type="text" /><br>
+        <label>Login: </label><input name="login" type="text" /><br>
+        <label>Senha: </label><input name="senha" type="password" /><br>
+        <label>Mora no Brasil?</label>
+        <select name="brasil">
+            <option value="S">Sim</option>
+            <option value="N">Não</option>
+        </select><br>
+        <input type="submit" name="enviar" />
+    </form>
+
+
+
+
+
+
+</html>
+
+
+
 </body>
+
 </html>
